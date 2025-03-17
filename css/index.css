@@ -222,6 +222,8 @@ hr {
     margin-bottom: 48px;
     justify-content: center;
     height: auto;
+    -webkit-align-items: center;
+    align-self: center;
   }
 
   .right_content {
