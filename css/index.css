@@ -144,7 +144,7 @@ hr {
 .title {
   font-size: 24px;
   font-weight: 600;
-  color:#d9dedb;
+  color:white;
 }
 
 .name {
@@ -166,7 +166,7 @@ hr {
 
 .role {
   text-decoration: none;
-  color: #d9dedb;
+  color: white;
   display: flex;
   font-size: 24px;
   font-weight: 500;
@@ -223,15 +223,24 @@ hr {
     margin-bottom: 48px;
     justify-content: center;
     height: auto;
+    align-items: center;
+  }
+
+  .left_content_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .right_content {
     padding-left: 0;
     width: 100%;
+    margin-top: 0;
   }
 
   .avatar {
-    width: 50%;
+    max-width: 40%;
     margin-top: 48px;
     margin-bottom: 48px;
   }
