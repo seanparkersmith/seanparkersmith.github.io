@@ -211,6 +211,7 @@ hr {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 48px;
+    align-items: center;
   }
 
   .left_content {
